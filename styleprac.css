@@ -7,16 +7,14 @@ img , svg{
 {
 
     font-family: Roboto;
-    overflow-x: hidden;
+    overflow-wrap: break-word;
+    overflow: auto;
 }
 
-.body::-webkit-scrollbar
-{
-  display: none;
-}
+
 
   .navbar {
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: fixed;
     height: 4rem;
     text-transform: uppercase;
@@ -105,7 +103,7 @@ img , svg{
 {
   margin-top:1rem ;
   margin-right: 1.6rem;
-  overflow: hidden;
+
   display: grid;
   width: fit-content;
   height: fit-content;
